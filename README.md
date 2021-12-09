@@ -14,8 +14,8 @@ Web app que dissemina a cultura de inclusão dentro da DBServer, com foco na cul
 ## Problemas que serão resolvidos
 
 - Propor uma alternativa tecnológica que estimula a autonomia no aprendizado de **inclusão**;
-- Propor uma alternativa tecnlogófica que estimula a autonomia no aprendizado de **Libras**;
-- Propor uma alternativa tecnlógica para facilitar a comunicação entre pessoas ouvintes e Pessoas Surdas, para além de um texto estático de apostila;
+- Propor uma alternativa tecnológica que estimula a autonomia no aprendizado de **Libras**;
+- Propor uma alternativa tecnológica para facilitar a comunicação entre pessoas ouvintes e Pessoas Surdas, para além de um texto estático de apostila;
 - Propor uma alternativa tecnológica que estimule as pessoas a manter a prática de **Libras**, para além dos workshops e treinamentos;
 - Propor uma alternativa tecnológica que facilite estimule as pessoas ouvintes a se comunicarem com as pessoas surdas, usando **Libras**;
 
