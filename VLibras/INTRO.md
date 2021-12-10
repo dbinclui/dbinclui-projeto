@@ -1,7 +1,7 @@
 # VLibras
 Descrição
 
-[**Importação workspace Insomnia**](/doc-api-vlibras-insomnia.json)
+[**Importação workspace Insomnia**](doc-api-vlibras-insomnia.json)
 
 
 # Links
