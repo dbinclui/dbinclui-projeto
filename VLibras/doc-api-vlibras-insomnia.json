@@ -1,0 +1,258 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-12-10T12:46:32.193Z",
+    "__export_source": "insomnia.desktop.app:v2021.6.0",
+    "resources": [
+        {
+            "_id": "req_2c52b2c05b9c4a4d987c1b6a6eaa4dc1",
+            "parentId": "fld_05536a1419de4261bd9556a31c617bf7",
+            "modified": 1639137085979,
+            "created": 1639059005381,
+            "url": "https://traducao2.vlibras.gov.br/translate",
+            "name": "/translate",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"text\": \"Estamos trabalhando na criação do vlibra inclui\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_2f02a75f511647509d0b66b7b7264f7b"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1639059005381,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_05536a1419de4261bd9556a31c617bf7",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1639064326265,
+            "created": 1639058839150,
+            "name": "Translate",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1639064140660,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "parentId": null,
+            "modified": 1639058652980,
+            "created": 1638312349426,
+            "name": "VLibras",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_a00e5dab982b4554b59f3ce8dc5576fe",
+            "parentId": "fld_d840479977524d3a82107f79c6a2dc73",
+            "modified": 1639137149899,
+            "created": 1639064154938,
+            "url": "https://traducao2.vlibras.gov.br/review",
+            "name": "/review",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"text\": \"Estamos trabalhando na criação do vlibras inclui\",\n  \"translation\": \"EU TRABALHAR CRIAÇÃO VLIBRAS INCLUIR [PONTO]\",\n  \"rating\": \"bad\",\n  \"review\": \"EU TRABALHAR CRIAÇÃO VLIBRAS INCLUIR [PONTO]\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_3663578dfdf54e27998862c6d05316e0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1639064154939,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_d840479977524d3a82107f79c6a2dc73",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1639064140635,
+            "created": 1639064140635,
+            "name": "Review",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1639064140635,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_18082fb89df14969b8d9a5827f7b0729",
+            "parentId": "fld_6f6667242d674130a55d23a4f3db617d",
+            "modified": 1639137174970,
+            "created": 1639059095664,
+            "url": "https://traducao2.vlibras.gov.br/video",
+            "name": "/video",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"gloss\": \"EU TRABALHAR CRIAÇÃO VLIBRAS INCLUIR [PONTO]\",\n  \"avatar\": \"icaro\",\n  \"caption\": \"on\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_efa880a53786491a9d0b674e8f7eaee8"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1639059095664,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_6f6667242d674130a55d23a4f3db617d",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1639064333223,
+            "created": 1639059066002,
+            "name": "Video",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1639061874597.5,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_82f48151dd9745c3a6fcb359ed14d920",
+            "parentId": "fld_3e4d666cd31f427489fd013895c68639",
+            "modified": 1639137336466,
+            "created": 1639059554667,
+            "url": "https://traducao2.vlibras.gov.br/video/status/91c1e2c2-6858-454d-8667-f5f7ea2cc4a4",
+            "name": "/video/status/{id}",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1639059554711,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_3e4d666cd31f427489fd013895c68639",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1639064337045,
+            "created": 1639059525237,
+            "name": "Video Status",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1639060741578.75,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_914d2999e3b64b85bf5958f885facc48",
+            "parentId": "fld_058bb5adc09844e1bfbfbf2d6f9ecb24",
+            "modified": 1639137350113,
+            "created": 1639059646686,
+            "url": "https://traducao2.vlibras.gov.br/video/download/91c1e2c2-6858-454d-8667-f5f7ea2cc4a4",
+            "name": "/video/downloads/{id}",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1639059646686,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_058bb5adc09844e1bfbfbf2d6f9ecb24",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1639059608560,
+            "created": 1639059608560,
+            "name": "Video Downloads",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1639059608560,
+            "_type": "request_group"
+        },
+        {
+            "_id": "env_1a522692b0cdaeacb89970e00c2a948bcb319d26",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1638312492246,
+            "created": 1638312349440,
+            "name": "Base Environment",
+            "data": {
+                "base_url": "http://localhost:5000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "base_url"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1638312349440,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_1a522692b0cdaeacb89970e00c2a948bcb319d26",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1638312349443,
+            "created": 1638312349443,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_cba8586db1f04195b281040d645c787f",
+            "parentId": "wrk_95bb1759c22643b4a698bc9c77f8881f",
+            "modified": 1638312349431,
+            "created": 1638312349431,
+            "fileName": "Home",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
