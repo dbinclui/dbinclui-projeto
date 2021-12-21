@@ -152,7 +152,8 @@
 
 * Pessoas com deficiências visuais poderão diferenciar mais facilmente o conteúdo quando diversas páginas Web estiverem abertas, e aqueles que utilizam recursos de áudio quando estão navegando entre páginas Web também são beneficiados;
 
-[Pacote react-document-title](https://www.npmjs.com/package/react-document-title)
+[Pacote react-document-title](https://www.npmjs.com/package/react-document-title)  
+
 [Referência Artigo: Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html)
 
 ---
@@ -176,8 +177,10 @@
 	aria-valuenow="50%" 
 />
 ```
-[Referência Artigo: What the Heck is ARIA? A Begginer's Guide to ARIA for Acessibility](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility)
-[Referência Artigo: Regras de Acessibilidade para WAI-ARIA](https://ux.sapo.pt/acessibilidade/web-acessibilidade/aria/)
+[Referência Artigo: What the Heck is ARIA? A Begginer's Guide to ARIA for Acessibility](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility)  
+
+[Referência Artigo: Regras de Acessibilidade para WAI-ARIA](https://ux.sapo.pt/acessibilidade/web-acessibilidade/aria/)  
+
 [Referência Artigo: Interface ARIA Attributes](https://use-form.netlify.app/interfaces/_node_modules__types_react_index_d_.react.ariaattributes.html)
 
 
